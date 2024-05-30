@@ -3,7 +3,7 @@ import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 import { slideUp, opacity } from './animation';
 import Rounded from '../../common/RoundedButton';
-export default function index() {
+export default function Index() {
 
     const phrase = "dynamic front-end developer helping brands stand out in the digital era with visually stunning, responsive web applications. Constantly learning and always on the cutting edge, setting the new status quo with exceptional digital experiences.";
     const description = useRef(null);
